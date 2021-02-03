@@ -32,6 +32,38 @@
    
    E student.courseLoad[0]
 
+14. A '32' because a number is concatenated with a string using plus sign 
+
+    B 1 because string is converted to number in math operations
+    
+    C 3 because null is converted to 0 in math operations
+    
+    D '3null' because null is converted to string and concatenated to the previous one using plus sign
+    
+    E 4 because true is converted to 1 in math operationsfal
+    
+    F 0 because false and null are both converted to 0 in math operations
+    
+    G '3undefined' because undefined is converted to string in string concatenation
+    
+    H NaN because undefined is converted to NaN in math operations
+ 
+ 15. A true because 2 is converted to number in comparisons
+ 
+     B false becasue both numbers are converted to numbers in comparisons 
+     
+     C true because string is converted to number in non strict equality check
+     
+     D false because they are different value, which is not equal in strict equality check
+     
+     E false becuase true is converted to 1 in euqality check
+     
+     F true because 2 is converted to boolean, which is true
+
+16. == is equality check and can compare value of different types. === is strict equality check, which returns false if two values are of different type. Null and undefined are euqal using == but not ===.
+
+17. 'How are you?' gets printed beacuse 2 == true will return false sincetrue is converted to 1 in equality checks. Thus we move to the second condition, and because 2 is converted to true in logical operations, we print 'How are you?' and ignore the third condition.
+
 
 
 
