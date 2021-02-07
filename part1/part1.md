@@ -64,7 +64,15 @@
 
 17. 'How are you?' gets printed beacuse 2 == true will return false sincetrue is converted to 1 in equality checks. Thus we move to the second condition, and because 2 is converted to true in logical operations, we print 'How are you?' and ignore the third condition.
 
+19. The result is and array [6,8,10]. ModifyArray will push something to a new array for each of the elements in the given array, and return the new array. In each round, what gets pushed into the new array is the result of the callback function passed in, which is doSomething. The argument given to doSomething is that array element for that round as well as a function. Since doSomething returns the result of the callback function given to it with an argument of that element+2, we pass in array[i]+2 for the function function(x). Therefore what we pushe into the new array each time is (array[i]+2)*2.
 
+21. 1
+
+3
+
+4
+
+2
 
 
 
